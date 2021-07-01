@@ -4,7 +4,6 @@
     <h2>{{ joke }}</h2>
     <hr />
     <small>Joke ID: {{ $route.params.id }}</small>
-    <small>route: {{ typeof Object.keys($route) }}</small>
     <button @click="nextJoke">Next Joke</button>
   </div>
 </template>
